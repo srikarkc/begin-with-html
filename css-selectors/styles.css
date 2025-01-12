@@ -1,0 +1,89 @@
+/* Element Selectors */
+h1 {
+    color: navy;
+    font-size: 2.5em;
+}
+
+h2 {
+    color: darkgreen;
+    font-size: 2em;
+}
+
+/* Class Selectors */
+.menu-item {
+    display: inline-block;
+    margin: 0 10px;
+    font-weight: bold;
+}
+
+.btn {
+    background-color: darkblue;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: royalblue;
+}
+
+/* ID Selectors */
+#home {
+    background-color: lightyellow;
+    padding: 20px;
+}
+
+#about {
+    background-color: lightblue;
+    padding: 20px;
+}
+
+#contact {
+    background-color: lightgreen;
+    padding: 20px;
+}
+
+/* Group Selector */
+p, label {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Descendant Selector */
+nav a {
+    text-decoration: none;
+    color: darkred;
+}
+
+/* Child Selector */
+nav > ul {
+    list-style: none;
+    padding: 0;
+}
+
+/* Sibling Selector */
+.intro + p {
+    font-weight: bold;
+    color: purple;
+}
+
+/* Attribute Selector */
+input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Pseudo-classes */
+a:hover {
+    text-decoration: underline;
+    color: darkblue;
+}
+
+a:active {
+    color: red;
+}
